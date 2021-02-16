@@ -1,0 +1,44 @@
+# Repo/Version Ctrl
+.git/**
+.gitconfig
+.gitignore
+.npmignore
+.vscodeignore
+.CHANGELOG.md
+
+# Dependancies
+node_modules/**
+package.json 
+ 
+# Dev Environment
+.vscode/**
+.markdownlint.jsonc
+.markdownlint.json
+.jsbeautifyrc.json
+.eslintrc.json
+.babelrc.json
+.markdownlintrc
+.jsbeautifyrc
+.prettierrc
+.babelrc
+prettier.conf.js
+babel.conf.js
+
+# Testing
+*.test.js
+.vscode-test/**
+test/**
+
+# Enviroment
+.ENV
+.env
+
+# Temporary Storage
+*.log
+.cache/**
+.tmp/**
+
+# Development
+.workspace/**
+.notes/**
+.trash/**

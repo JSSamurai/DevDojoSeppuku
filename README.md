@@ -1,0 +1,9 @@
+# JavaScript Dojo: A V.S. Code Theme
+
+### HTTPS://Github.com/JSSamurai/JSDojo.git
+
+> ---
+>
+> JSDojo is a theme for VSCode that will work for most all languages, but it does have semantic-token support for JavaScript & I plan on adding semantic support for C++ in the future. I have worked many hours producing this theme and am still far from finished, however I will have to complete the rest through occassional updates. This theme is deeply developed. I've thouroughly explored all the JSON properties, and TM-Tokens that are available to be configured in relation to 'VSCode Themes'. Even the most mundane parts of this theme have been reconfigured as to offer a graphical experiance unique to this theme. YO code generater is a great tool, however, it makes generating themes easy, and the marketplace is flooded with underdeveloped "Yo-Generated" themes that are garbage for a professional development environment. This theme is not an underdeveloped theme, if anything; this theme is curruntly slightlty over-developed. I need to go through and elimate the differnt colors that are all nearly the same into single colors, thus creating an easily concievable color pallete for JSDojo. 2021=FEBUARY-16 @ 12:45am PST is when this theme will be published (give or take a minute or two). Currently at this time this theme is in what I would consider a beta version. I release updates regularly for this theme weekly for the next few months untill I am satisified with the theme all together. If you try this theme out, please give me feed back, I promise you I will hear out your ideas, requests, thoughts, critisisms, feedback &/or whatever else you have to sat.
+>
+> #### **_\-\- A. Jay Chambers Jr. (A.K.A. JSSamurai)_**
