@@ -7,11 +7,11 @@
 .CHANGELOG.md
 
 # Dependancies
-node_modules/**
+node_modules/
 package.json 
  
 # Dev Environment
-.vscode/**
+.vscode/
 .markdownlint.jsonc
 .markdownlint.json
 .jsbeautifyrc.json

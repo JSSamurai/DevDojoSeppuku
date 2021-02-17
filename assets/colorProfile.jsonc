@@ -1,0 +1,31 @@
+/**
+ *                 ~~~~ JS Dojo: Seppuku's Color Profile ~~~~
+ *
+ * _____________________________________________________________________________
+ *  File: './assets/colorProfile.jsonc'
+ *  Repo: https://github.com/JSSamurai/JSDojo.git
+ *  License: Public/MIT
+ *  Developer: A. J. Chambers Jr. (A.K.A. JSSamurai)
+ *  Email: Katana.Development@gmail.com
+ *
+ * _____________________________________________________________________________
+ *  Description: "This file is a list that gives any curious eyes an idea of
+ *    what colors make up this theme, and where the colors are used. By Renaming
+ *    each of these colors in the theme json file via (CTRL + F2) a new theme
+ *    can be created rather quickling using the DojoJS Layout."
+ * ----------------------------------------------------------------------------- */
+
+{
+    "VerControlStatus": {
+        "modified": "",
+        "deleted": "#9F200F",
+        "ignored": "",
+        "untracked": "",
+        "conflict": "",
+        "Staged": {
+            "added": "",
+            "modified": "",
+            "deleted": ""
+        }
+    }
+}

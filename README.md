@@ -1,6 +1,6 @@
 # JavaScript Dojo: A V.S. Code Theme
 
-### HTTPS://Github.com/JSSamurai/JSDojo.git
+### https://github.com/JSSamurai/JSDojo
 
 > ---
 >
