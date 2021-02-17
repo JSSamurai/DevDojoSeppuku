@@ -1,342 +1,342 @@
 {
-  "editor.foldingStrategy": "indentation",
-  "workbench.colorTheme": "DevDojo: Seppuku",
-  "editor.fontFamily": "'Iosevka Curly'",
-  "terminal.integrated.fontFamily": "Iosevka Curly",
+    "editor.foldingStrategy": "indentation",
+    "workbench.colorTheme": "DevDojo: Seppuku",
+    "editor.fontFamily": "'Iosevka Curly'",
+    "terminal.integrated.fontFamily": "Iosevka Curly",
 
-  "editor.fontSize": 15,
-  "window.zoomLevel": 0,
-  "editor.padding.top": 64,
-  "editor.padding.bottom": 128,
-  "editor.lineHeight": 24,
-  "editor.cursorWidth": 2,
-  "editor.minimap.maxColumn": 72,
-  "editor.minimap.size": "proportional",
-  "editor.minimap.scale": 1,
-  "editor.tabSize": 4,
-  "workbench.tree.indent": 12,
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "400",
-  "terminal.integrated.fontWeightBold": "800",
-  "editor.wordWrapColumn": 84,
-  "editor.fontWeight": "400",
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0.125,
+    "editor.padding.top": 64,
+    "editor.padding.bottom": 128,
+    "editor.lineHeight": 24,
+    "editor.cursorWidth": 2,
+    "editor.minimap.maxColumn": 72,
+    "editor.minimap.size": "proportional",
+    "editor.minimap.scale": 1,
+    "editor.tabSize": 4,
+    "workbench.tree.indent": 12,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.fontWeightBold": "800",
+    "editor.wordWrapColumn": 84,
+    "editor.fontWeight": "400",
 
-  "editor.semanticHighlighting.enabled": true,
-  "scm.alwaysShowActions": true,
-  "scm.alwaysShowRepositories": true,
-  "color-highlight.markRuler": false,
-  "terminal.integrated.cursorBlinking": true,
-  "zenMode.silentNotifications": false,
-  "git.showPushSuccessNotification": true,
-  "git.supportCancellation": true,
-  "editor.smoothScrolling": true,
-  "editor.fontLigatures": true,
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.formatOnSave": true,
-  "debug.showBreakpointsInOverviewRuler": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "editor.detectIndentation": false,
-  "editor.scrollBeyondLastLine": false,
+    "editor.semanticHighlighting.enabled": true,
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowRepositories": true,
+    "color-highlight.markRuler": false,
+    "terminal.integrated.cursorBlinking": true,
+    "zenMode.silentNotifications": false,
+    "git.showPushSuccessNotification": true,
+    "git.supportCancellation": true,
+    "editor.smoothScrolling": true,
+    "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.formatOnSave": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.detectIndentation": false,
+    "editor.scrollBeyondLastLine": false,
 
-  "workbench.tree.renderIndentGuides": "always",
-  "editor.minimap.enabled": true,
-  "editor.minimap.showSlider": "always",
-  "editor.showFoldingControls": "always",
-  "editor.renderLineHighlight": "all",
-  "editor.cursorBlinking": "solid",
-  "editor.wordWrap": "wordWrapColumn",
-  "scm.providerCountBadge": "visible",
-  "terminal.integrated.cursorStyle": "underline",
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.showFoldingControls": "always",
+    "editor.renderLineHighlight": "all",
+    "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "wordWrapColumn",
+    "scm.providerCountBadge": "visible",
+    "terminal.integrated.cursorStyle": "underline",
 
-  // Editor Tab-Markers (Every 4-Chars starting @ 20, Ending @ 88)
-  "editor.rulers": [0, 20, 40, 60, 80, 80, 82, 84, 84],
+    // Editor Tab-Markers (Every 4-Chars starting @ 20, Ending @ 88)
+    "editor.rulers": [0, 20, 40, 60, 80, 80, 82, 84, 84],
 
-  // >> Better Comments Extension
-  "better-comments.tags": [
-    // /      FooBar == BooFar ("Hello World!")
-    // //      FooBar == BooFar ("Hello World!")
-    // * Note:  FooBar == BooFar ("Hello World!")
-    // WTF?     FooBar == BooFar ("Hello World!")
-    // #        FooBar == BooFar ("Hello World!")
-    // !        FooBar == BooFar ("Hello World!")
-    // !!       FooBar == BooFar ("Hello World!")
-    // =>      FooBar == BooFar ("Hello World!")
-    // ->      FooBar == BooFar ("Hello World!")
-    // |>       FooBar == BooFar ("Hello World!")
-    // ||>      FooBar == BooFar ("Hello World!")
-    // *|>     FooBar == BooFar ("Hello World!")
-    // :|>      FooBar == BooFar ("Hello World!")
-    // *->      FooBar == BooFar ("Hello World!")
-    // *=>      FooBar == BooFar ("Hello World!")
-    // ==>      FooBar == BooFar ("Hello World!")
-    // -->      FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    //       FooBar == BooFar ("Hello World!")
-    // #     123456789|123456789|12
-    {
-      // *-> Comment Label (Length: x22)
-      "tag": " <<------------------||",
-      "color": "#20DD20",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+    // >> Better Comments Extension
+    "better-comments.tags": [
+        // /      FooBar == BooFar ("Hello World!")
+        // //      FooBar == BooFar ("Hello World!")
+        // * Note:  FooBar == BooFar ("Hello World!")
+        // WTF?     FooBar == BooFar ("Hello World!")
+        // #        FooBar == BooFar ("Hello World!")
+        // !        FooBar == BooFar ("Hello World!")
+        // !!       FooBar == BooFar ("Hello World!")
+        // =>      FooBar == BooFar ("Hello World!")
+        // ->      FooBar == BooFar ("Hello World!")
+        // |>       FooBar == BooFar ("Hello World!")
+        // ||>      FooBar == BooFar ("Hello World!")
+        // *|>     FooBar == BooFar ("Hello World!")
+        // :|>      FooBar == BooFar ("Hello World!")
+        // *->      FooBar == BooFar ("Hello World!")
+        // *=>      FooBar == BooFar ("Hello World!")
+        // ==>      FooBar == BooFar ("Hello World!")
+        // -->      FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        //       FooBar == BooFar ("Hello World!")
+        // #     123456789|123456789|12
+        {
+            // *-> Comment Label (Length: x22)
+            "tag": " <<------------------||",
+            "color": "#20DD20",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // => Comment Label (Length: x26)
-      "tag": " <<----------------------||",
-      "color": "#FF7604",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // => Comment Label (Length: x26)
+            "tag": " <<----------------------||",
+            "color": "#FF7604",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // !! Comment Label (Length: x28)
-      "tag": " <<------------------------||",
-      "color": "#FF2A1A",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // !! Comment Label (Length: x28)
+            "tag": " <<------------------------||",
+            "color": "#FF2A1A",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // ! Comment Label (Length: x30)
-      "tag": " <<--------------------------||",
-      "color": "#FFC408",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // ! Comment Label (Length: x30)
+            "tag": " <<--------------------------||",
+            "color": "#FFC408",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // |> Comment Label (Length: x34)
-      "tag": " <<------------------------------||",
-      "color": "#3494FF",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // |> Comment Label (Length: x34)
+            "tag": " <<------------------------------||",
+            "color": "#3494FF",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // # TrueGreen_@_HEX_009900
-      "tag": " # ",
-      "color": "#099919",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // # TrueGreen_@_HEX_009900
+            "tag": " # ",
+            "color": "#099919",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // |> TrueBlue_@_HEX_5A8DFF
-      "tag": " |> ",
-      "color": "#5A8DFF",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // |> TrueBlue_@_HEX_5A8DFF
+            "tag": " |> ",
+            "color": "#5A8DFF",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // -> TrueRed_@_HEX_DD403A
-      "tag": " -> ",
-      "color": "#DD403A",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // -> TrueRed_@_HEX_DD403A
+            "tag": " -> ",
+            "color": "#DD403A",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // => TrueOrange_@_HEX_DD403A
-      "tag": " => ",
-      "color": "#FF740A",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // => TrueOrange_@_HEX_DD403A
+            "tag": " => ",
+            "color": "#FF740A",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // ||> BabyBlue_@_HEX_10BEFF
-      "tag": " ||> ",
-      "color": "#10BEFF",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // ||> BabyBlue_@_HEX_10BEFF
+            "tag": " ||> ",
+            "color": "#10BEFF",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // *|> MellowYellow_@_HEX_C8C440
-      "tag": " *|> ",
-      "color": "#C8C440",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // *|> MellowYellow_@_HEX_C8C440
+            "tag": " *|> ",
+            "color": "#C8C440",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // => Crimson(Bold)_@_HEX_E52050
-      "tag": " :|> ",
-      "color": "#E52050",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // => Crimson(Bold)_@_HEX_E52050
+            "tag": " :|> ",
+            "color": "#E52050",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // --> BabyPink_@_HEX_E060AA
-      "tag": " --> ",
-      "color": "#E060AA",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // --> BabyPink_@_HEX_E060AA
+            "tag": " --> ",
+            "color": "#E060AA",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // ==> PacificBlue_@_HEX_E060AA
-      "tag": " ==> ",
-      "color": "#10D8C4",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // ==> PacificBlue_@_HEX_E060AA
+            "tag": " ==> ",
+            "color": "#10D8C4",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // *-> YellowGreen_@_HEX_4ABA1A
-      "tag": " *-> ",
-      "color": "#4ABA1A",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // *-> YellowGreen_@_HEX_4ABA1A
+            "tag": " *-> ",
+            "color": "#4ABA1A",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // *=> TruePurple(Bold)_@_HEX_B15CFF
-      "tag": " *=> ",
-      "color": "#B15CFF",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // *=> TruePurple(Bold)_@_HEX_B15CFF
+            "tag": " *=> ",
+            "color": "#B15CFF",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // <===============|TruePurple(Bold)_@_HEX_B15CFF|===============>
-      "tag": " <====",
-      "color": "#FF98A2",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // <===============|TruePurple(Bold)_@_HEX_B15CFF|===============>
+            "tag": " <====",
+            "color": "#FF98A2",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // ! Hello World
-      "tag": " ! ",
-      "color": "#F0FF00",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // ! Hello World
+            "tag": " ! ",
+            "color": "#F0FF00",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // !! Hello World
-      "tag": " !! ",
-      "color": "#FF3020",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": true,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // !! Hello World
+            "tag": " !! ",
+            "color": "#FF3020",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": true,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // WTF? What the foobar?
-      "tag": "WTF?",
-      "color": "#FF00FF",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // WTF? What the foobar?
+            "tag": "WTF?",
+            "color": "#FF00FF",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      // * NOTE: "Throws a oofRab if rooFab === fooBar && booFar."
-      "tag": "* Note:",
-      "color": "#2CCCFF",
-      "backgroundColor": "transparent",
-      "italic": false,
-      "bold": false,
-      "underline": false,
-      "strikethrough": false
-    },
+        {
+            // * NOTE: "Throws a oofRab if rooFab === fooBar && booFar."
+            "tag": "* Note:",
+            "color": "#2CCCFF",
+            "backgroundColor": "transparent",
+            "italic": false,
+            "bold": false,
+            "underline": false,
+            "strikethrough": false
+        },
 
-    {
-      /// Struck Out!
-      "tag": "/ ",
-      "color": "#000FA0",
-      "strikethrough": true,
-      "underline": true,
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": true
-    },
+        {
+            /// Struck Out!
+            "tag": "/ ",
+            "color": "#000FA0",
+            "strikethrough": true,
+            "underline": true,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
 
-    {
-      //// Struck Out!
-      "tag": "// ",
-      "color": "#500000",
-      "strikethrough": true,
-      "underline": true,
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": true
-    }
-  ],
-  "editor.autoIndent": "advanced",
-  "js/ts.implicitProjectConfig.strictFunctionTypes": false,
-  "javascript.format.semicolons": "insert"
+        {
+            //// Struck Out!
+            "tag": "// ",
+            "color": "#500000",
+            "strikethrough": true,
+            "underline": true,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        }
+    ],
+    "editor.autoIndent": "advanced",
+    "js/ts.implicitProjectConfig.strictFunctionTypes": false,
+    "javascript.format.semicolons": "insert"
 }

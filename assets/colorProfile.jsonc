@@ -16,7 +16,52 @@
  * ----------------------------------------------------------------------------- */
 
 {
-    "VerControlStatus": {
+    "ThemesPallete": {
+        "Chorcoal": "#040810",
+        "Crimson": "#FF0040",
+        "Azure": "#0080FF",
+        "Malachite": "#00FF64"
+    },
+
+    "Editor-Scheme": {
+        "BLACKS": {
+            "EditorBackground_01": "#00050A",
+            "EditorBackground_02": "#040A11",
+            //
+            "EditorBackground_03": "#000000",
+            "EditorBackground_04": "#000000",
+            "EditorBackground_05": "#000000"
+        },
+        "CRIMSON": {
+            "Active Highlight": "#FF0040",
+            "Inactive-FG/Borders": "#800020",
+            "Borders/Backgrounds": "#500418",
+            "": "#1Dead100"
+        }
+    },
+
+    "SatusColors": {
+        // Error covers the following: 'Error', 'Conflict', 'Invalid', 'Promblem'
+        "Errors": {
+            "Error": {
+                "background": "#E5250E1E",
+                "foreground": "#E5250E",
+                "border": "#E5250E"
+            }
+        },
+
+        "Warning": {
+            "Warn": "#FFD025",
+            "AutoFix": ""
+        },
+
+        "Info": {
+            "Notification": "",
+            "LightBulb": ""
+        }
+    },
+
+    "VersionControlColors": {
         "modified": "",
         "deleted": "#9F200F",
         "ignored": "",
