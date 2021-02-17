@@ -340,9 +340,7 @@
     "js/ts.implicitProjectConfig.strictFunctionTypes": false,
     "javascript.format.semicolons": "insert",
     "editor.overviewRulerBorder": false,
-    "gitlens.changes.locations": [
-        "gutter"
-    ],
+    "gitlens.changes.locations": ["gutter"],
     "scm.defaultViewMode": "tree",
     "scm.diffDecorations": "gutter",
     "scm.diffDecorationsGutterWidth": 4

@@ -33,47 +33,72 @@
             "EditorBackground_05": "#000000"
         },
 
-        "Crimson Shades": {
+        "Reds": {
             "Crimson(HiC)": "#FF0040",
             "Crimson(LoC)": "#800020",
             "FrenchBurgandy": "#500418",
-            "": "#1Dead100"
+            "RedOrange(HiC)": "#FF2A04",
+            "RedOrange(Hic/Opaqe)": "#FF2A0420",
+            "RedOrange(LoC)": "#CC2208",
+            "DarkRed": "#AC1808",
+            "": "#F05A52"
         },
 
-        "Sky Shades": {
+        "Cyans/Blues": {
             "Cyan": "#00F4FF",
             "SkyBlue": "#24D0FF",
-            "Azure": "#2084FF"
+            "Azure": "#1888FF"
+        },
+
+        "Greens": {
+            "Malachite(HiC)": "#0FFF72",
+            "Malachite(STD)": "#0DDD64",
+            "PastelGreen(LoC)": "#0BBB56",
+            "GrannSmith": "#2BBB0B",
+            "BlueGrass": "#20A040"
+        },
+        "Misc": {
+            "DarkYellow": "#FFCC18",
+            "DarkYellow(opaqe)": ["#FFCC1818", "#FFCC1888"]
         }
     },
 
     "SatusColors": {
         // Error covers the following: 'Error', 'Conflict', 'Invalid', 'Promblem'
         "Errors": {
-            "Error": {
-                "background": "#E5250E1E",
-                "foreground": "#E5250E",
-                "border": "#E5250E"
-            }
+            "Erroneous": [
+                {
+                    "Deleted": "#AC1808",
+                    "Invalid": "#F05A52",
+                    "Error": {
+                        "Background/Border": "#FF2A0424",
+                        "Foreground": "#FF2A04"
+                    }
+                }
+            ]
         },
 
         "Warning": {
-            "Warn": "#FFD025",
-            "AutoFix": ""
+            "Foreground": "#FFCC18",
+            "Background/Border": ["#FFCC1818", "#FFCC1888"]
         },
 
         "Info": {
-            "Notification": "",
-            "LightBulb": ""
+            "Foreground": "#5888E5",
+            "Background/Border": ["#5888E540", "#5888E5BB"]
+        },
+        "Debugging": {
+            "Foreground": "",
+            "Background/Border": ["#20A840", "#20A840"]
         }
     },
 
     "VersionControlColors": {
-        "modified": "",
-        "deleted": "#9F200F",
-        "ignored": "",
-        "untracked": "",
-        "conflict": "",
+        "modified": "#24D0FF",
+        "deleted": "#AC1808",
+        "ignored": "#296996",
+        "untracked": "#D89A5C",
+        "conflict": "#CC2208",
         "Staged": {
             "added": "",
             "modified": "",
