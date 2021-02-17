@@ -42,7 +42,7 @@
     "editor.minimap.enabled": true,
     "editor.minimap.showSlider": "always",
     "editor.showFoldingControls": "always",
-    "editor.renderLineHighlight": "all",
+    "editor.renderLineHighlight": "gutter",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "wordWrapColumn",
     "scm.providerCountBadge": "visible",
@@ -338,5 +338,12 @@
     ],
     "editor.autoIndent": "advanced",
     "js/ts.implicitProjectConfig.strictFunctionTypes": false,
-    "javascript.format.semicolons": "insert"
+    "javascript.format.semicolons": "insert",
+    "editor.overviewRulerBorder": false,
+    "gitlens.changes.locations": [
+        "gutter"
+    ],
+    "scm.defaultViewMode": "tree",
+    "scm.diffDecorations": "gutter",
+    "scm.diffDecorationsGutterWidth": 4
 }

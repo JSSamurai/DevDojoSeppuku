@@ -19,12 +19,12 @@
     "ThemesPallete": {
         "Chorcoal": "#040810",
         "Crimson": "#FF0040",
-        "Azure": "#0080FF",
+        "Sky": "#18D2FF",
         "Malachite": "#00FF64"
     },
 
     "Editor-Scheme": {
-        "BLACKS": {
+        "Charcoal Shades": {
             "EditorBackground_01": "#00050A",
             "EditorBackground_02": "#040A11",
             //
@@ -32,11 +32,18 @@
             "EditorBackground_04": "#000000",
             "EditorBackground_05": "#000000"
         },
-        "CRIMSON": {
-            "Active Highlight": "#FF0040",
-            "Inactive-FG/Borders": "#800020",
-            "Borders/Backgrounds": "#500418",
+
+        "Crimson Shades": {
+            "Crimson(HiC)": "#FF0040",
+            "Crimson(LoC)": "#800020",
+            "FrenchBurgandy": "#500418",
             "": "#1Dead100"
+        },
+
+        "Sky Shades": {
+            "Cyan": "#00F4FF",
+            "SkyBlue": "#24D0FF",
+            "Azure": "#2084FF"
         }
     },
 
