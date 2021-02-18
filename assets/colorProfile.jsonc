@@ -26,8 +26,8 @@
     "Editor-Scheme": {
         "Blacks": {
             "Charcoal": {
-                "Charcoal01": "#00050A",
-                "Charcoal02": "#040A12",
+                "Charcoal01": "#04080E",
+                "Charcoal02": "#090F15",
                 "Charcoal03": "#060C14"
             },
             "TrueBlack": {
@@ -40,13 +40,15 @@
 
         "Reds": {
             "CRIMSON": {
-                "Crimson(HiC)": "#FF0040",
-                "Crimson(LoC)": "#800020"
+                "Crimson(HiC)": "#FF0234",
+                "Crimson(STD)": "#D40630",
+                "Crimson(LoC)": "#8A0420",
+                "RoseWood": "#4C0212"
             },
             "TrueRed": {
-                "Red(HiC)": "#FF2008",
-                "Red(Hic/Opaqe)": "#FF2A0420",
-                "DarkRed": "#A51804"
+                "Red(HiC)": "#FF2014",
+                "Red(Hic/Opaqe)": "#FF201420",
+                "DarkRed": "#A8140D"
             },
             "FrenchBurgandy": "#450310",
             "Erroneous": "#F05A52"
@@ -58,8 +60,13 @@
             "Azure": "#1888FF"
         },
 
-        "Greens": {
+        "Gree3s": {
             "Malachite": {
+                "Original-Chartreuse": "#D0FF00",
+                "New-Chartreuse": "#90FF00",
+                "NeonGreen (HiC)": "#4FFF28",
+                "NeonGreen (std)": "#30FF12",
+
                 "Malachite(HiC)": "#0FFF72",
                 "Malachite(STD)": "#0DDD64",
                 "Malachite(LoC)": "#0BBB56"
@@ -79,11 +86,11 @@
         "Errors": {
             "Erroneous": [
                 {
-                    "Deleted": "#A81402",
+                    "Deleted": "#A8140D",
                     "Invalid": "#F05A52",
                     "Error/Conflict": {
-                        "Background/Border": "#FF2A0424",
-                        "Foreground": "#FF2008"
+                        "Background/Border": "#FF201420",
+                        "Foreground": "#FF2014"
                     }
                 }
             ]
@@ -106,10 +113,10 @@
 
     "VersionControlColors": {
         "modified": "#24D0FF",
-        "deleted": "#A21202",
+        "deleted": "#A8140D",
         "ignored": "#296996",
         "untracked": "#D89A5C",
-        "conflict": "#FF2008",
+        "conflict": "#FF2014",
         "Staged": {
             "added": "",
             "modified": "",

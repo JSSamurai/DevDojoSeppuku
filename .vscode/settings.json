@@ -55,6 +55,7 @@
     "better-comments.tags": [
         // /      FooBar == BooFar ("Hello World!")
         // //      FooBar == BooFar ("Hello World!")
+
         // * Note:  FooBar == BooFar ("Hello World!")
         // WTF?     FooBar == BooFar ("Hello World!")
         // #        FooBar == BooFar ("Hello World!")
@@ -70,6 +71,7 @@
         // *=>      FooBar == BooFar ("Hello World!")
         // ==>      FooBar == BooFar ("Hello World!")
         // -->      FooBar == BooFar ("Hello World!")
+
         //       FooBar == BooFar ("Hello World!")
         //       FooBar == BooFar ("Hello World!")
         //       FooBar == BooFar ("Hello World!")
