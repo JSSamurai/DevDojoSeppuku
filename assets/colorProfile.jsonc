@@ -24,39 +24,50 @@
     },
 
     "Editor-Scheme": {
-        "Charcoal Shades": {
-            "EditorBackground_01": "#00050A",
-            "EditorBackground_02": "#040A11",
-            //
-            "EditorBackground_03": "#000000",
-            "EditorBackground_04": "#000000",
-            "EditorBackground_05": "#000000"
+        "Blacks": {
+            "Charcoal": {
+                "Charcoal01": "#00050A",
+                "Charcoal02": "#040A12",
+                "Charcoal03": "#060C14"
+            },
+            "TrueBlack": {
+                "TrueBlack01": "010105",
+                "TrueBlack02": "020308",
+                "TrueBlack03": "050509"
+            },
+            "PureBlack": "#000000"
         },
 
         "Reds": {
-            "Crimson(HiC)": "#FF0040",
-            "Crimson(LoC)": "#800020",
-            "FrenchBurgandy": "#500418",
-            "RedOrange(HiC)": "#FF2A04",
-            "RedOrange(Hic/Opaqe)": "#FF2A0420",
-            "RedOrange(LoC)": "#CC2208",
-            "DarkRed": "#AC1808",
-            "": "#F05A52"
+            "CRIMSON": {
+                "Crimson(HiC)": "#FF0040",
+                "Crimson(LoC)": "#800020"
+            },
+            "TrueRed": {
+                "Red(HiC)": "#FF2008",
+                "Red(Hic/Opaqe)": "#FF2A0420",
+                "DarkRed": "#A51804"
+            },
+            "FrenchBurgandy": "#450310",
+            "Erroneous": "#F05A52"
         },
 
         "Cyans/Blues": {
-            "Cyan": "#00F4FF",
-            "SkyBlue": "#24D0FF",
+            "Cyan": "#00F8FF",
+            "SkyBlue": "#18D0FF",
             "Azure": "#1888FF"
         },
 
         "Greens": {
-            "Malachite(HiC)": "#0FFF72",
-            "Malachite(STD)": "#0DDD64",
-            "PastelGreen(LoC)": "#0BBB56",
-            "GrannSmith": "#2BBB0B",
+            "Malachite": {
+                "Malachite(HiC)": "#0FFF72",
+                "Malachite(STD)": "#0DDD64",
+                "Malachite(LoC)": "#0BBB56"
+            },
+            "GrannSmith": "#38BF28",
             "BlueGrass": "#20A040"
         },
+
         "Misc": {
             "DarkYellow": "#FFCC18",
             "DarkYellow(opaqe)": ["#FFCC1818", "#FFCC1888"]
@@ -68,11 +79,11 @@
         "Errors": {
             "Erroneous": [
                 {
-                    "Deleted": "#AC1808",
+                    "Deleted": "#A81402",
                     "Invalid": "#F05A52",
-                    "Error": {
+                    "Error/Conflict": {
                         "Background/Border": "#FF2A0424",
-                        "Foreground": "#FF2A04"
+                        "Foreground": "#FF2008"
                     }
                 }
             ]
@@ -95,10 +106,10 @@
 
     "VersionControlColors": {
         "modified": "#24D0FF",
-        "deleted": "#AC1808",
+        "deleted": "#A21202",
         "ignored": "#296996",
         "untracked": "#D89A5C",
-        "conflict": "#CC2208",
+        "conflict": "#FF2008",
         "Staged": {
             "added": "",
             "modified": "",
