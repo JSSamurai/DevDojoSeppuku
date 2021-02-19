@@ -15,3 +15,22 @@
 <br>
 
 <span style="margin: 100px"> **_\-\- A. Jay Chambers Jr. (A.K.A. JSSamurai)_** </span>
+
+<br>
+
+---
+
+## <span style="color: crimson">Settings to use with DojoJS</span>
+
+The following setting changes are not required, they are just a suggestion on my behalf. When creating a theme for vscode certain features/items can be styled that are not activated by default, furthermore; when a theme is developed it is developed in the environment that the developer has set up. With that said, some settings will be advantageous to certain themes, and may not work/look so well with other themes. Bellow are certain VSCode settings that I feel will help you get the most out of DojoJS.
+
+```
+// Document: VSCode Settings
+// Pathname: './.vscode/settings.json'
+
+{
+    "workbench.editor.pinnedTabSizing": "normal" // Dont set to shrink
+
+}
+
+```

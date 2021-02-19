@@ -160,10 +160,10 @@
         "gitlens.trailingLineBackgroundColor": "#1dead100",
         "gitlens.trailingLineForegroundColor": "#28c4ff4e",
 
-        "icon.foreground": "#00F8FF",
+        "icon.foreground": "#80FF00",
         "input.background": "#020202",
         "input.border": "#36000C",
-        "input.foreground": "#8CFF00",
+        "input.foreground": "#80FF00",
         "input.placeholderForeground": "#ffffff4a",
         "inputOption.activeBackground": "#000000",
         "inputOption.activeBorder": "#000000",
@@ -298,7 +298,7 @@
         "sideBarSectionHeader.border": "#700000",
         "sideBarSectionHeader.foreground": "#9E0024",
 
-        "sideBarTitle.foreground": "#00F8FF",
+        "sideBarTitle.foreground": "#80FF00",
 
         "statusBar.background": "#3A0410",
         "statusBar.foreground": "#E8E8E8",
@@ -357,20 +357,20 @@
         "contrastActiveBorder": "#ffffff00",
 
         // Tab Grouping Region
-        "editorGroupHeader.border": "#00000F",
-        "editorGroupHeader.noTabsBackground": "#131312",
+        "editorGroupHeader.border": "#000000D5",
+        "editorGroupHeader.noTabsBackground": "#0C1117",
         "editorGroupHeader.tabsBackground": "#040A10",
         "editorGroupHeader.tabsBorder": "#FF00204A",
 
         // |> Active (focused & unfocused)
-        "tab.activeBackground": "#FFFFFF00",
+        "tab.activeBackground": "#FF002F12",
         "tab.unfocusedActiveBackground": "#02040600",
         "tab.activeForeground": "#FF1840",
 
         "tab.unfocusedActiveForeground": "#FFFFFF20",
-        "tab.activeBorder": "#D4063000",
+        "tab.activeBorder": "#00000000",
         "tab.unfocusedActiveBorder": "#00000000",
-        "tab.activeBorderTop": "#FF002000",
+        "tab.activeBorderTop": "#FF002F",
         "tab.unfocusedActiveBorderTop": "#FF002000",
         "tab.activeModifiedBorder": "#18D0FF00",
         "tab.unfocusedActiveModifiedBorder": "#18D0FF00",
@@ -413,7 +413,7 @@
         "terminal.ansiWhite": "#c4c4c4",
         "terminal.ansiYellow": "#D5A51D",
         "terminal.border": "#FFFFFF30",
-        "terminal.foreground": "#8CFF00",
+        "terminal.foreground": "#80FF00",
         "terminal.selectionBackground": "#FFFFFF2F",
 
         // Text / README files
@@ -426,7 +426,7 @@
         "textSeparator.foreground": "#FF0234",
 
         // TitleBar
-        "titleBar.activeBackground": "#0C0C0C",
+        "titleBar.activeBackground": "#041020",
         "titleBar.activeForeground": "#BBBBBB",
         "titleBar.border": "#242424",
         "titleBar.inactiveBackground": "#142044",
