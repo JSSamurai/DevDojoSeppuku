@@ -4,13 +4,13 @@
 
     "colors": {
         // ActivityBar
-        "activityBar.background": "#050A10",
-        "activityBar.foreground": "#FF002F",
+        "activityBar.background": "#04080E",
+        "activityBar.foreground": "#FFFFFF",
         "activityBar.border": "#3A000C",
 
         // ActivityBar: Active
-        "activityBar.activeBackground": "#FF023412",
-        "activityBar.activeBorder": "#FF0234",
+        "activityBar.activeBackground": "#FF003544",
+        "activityBar.activeBorder": "#FFFFFF",
         "activityBar.activeFocusBorder": "#ffffff",
         "activityBar.dropBorder": "#40FF0F",
 
@@ -18,12 +18,12 @@
         "activityBar.inactiveForeground": "#600018",
 
         // Badge
-        "badge.background": "#FF002C",
+        "badge.background": "#FF0234",
         "badge.foreground": "#FFFFFF",
 
         // Badge: ActivityBar
         "activityBarBadge.background": "#FF0234",
-        "activityBarBadge.foreground": "#ffffff",
+        "activityBarBadge.foreground": "#FFFFFF",
 
         // Contrast Border
         "contrastBorder": "#520212",
@@ -99,7 +99,7 @@
         "editorLightBulbAutoFix.foreground": "#e8ff54",
 
         // Line~Numberz
-        "editorLineNumber.activeForeground": "#4CFF08",
+        "editorLineNumber.activeForeground": "#50FF10",
         "editorLineNumber.foreground": "#2f2f2f",
 
         // Linkz
@@ -160,10 +160,10 @@
         "gitlens.trailingLineBackgroundColor": "#1dead100",
         "gitlens.trailingLineForegroundColor": "#28c4ff4e",
 
-        "icon.foreground": "#4CFF08",
+        "icon.foreground": "#FFFFFF",
         "input.background": "#020202",
         "input.border": "#36000C",
-        "input.foreground": "#4CFF08",
+        "input.foreground": "#50FF10",
         "input.placeholderForeground": "#ffffff4a",
         "inputOption.activeBackground": "#000000",
         "inputOption.activeBorder": "#000000",
@@ -192,7 +192,7 @@
 
         // List: Hover
         "list.hoverBackground": "#3E0A16E0",
-        "list.hoverForeground": "#4CFF08",
+        "list.hoverForeground": "#50FF10",
         "list.dropBackground": "#00ffc454",
 
         // List: Status Colors
@@ -248,16 +248,16 @@
         "notificationsWarningIcon.foreground": "#FFCC18",
         "panel.background": "#04080E",
         "panel.border": "#940024",
-        "panel.dropBorder": "#4CFF08",
+        "panel.dropBorder": "#50FF10",
         "panelInput.border": "#36000C",
         "panelSection.border": "#181e25",
         "panelSection.dropBackground": "#00FFC4",
         "panelSectionHeader.background": "#36000C",
-        "panelSectionHeader.border": "#4CFF08",
+        "panelSectionHeader.border": "#50FF10",
         "panelSectionHeader.foreground": "#dfdfdf",
-        "panelTitle.activeBorder": "#EEEEEE",
-        "panelTitle.activeForeground": "#FF0234",
-        "panelTitle.inactiveForeground": "#70001C",
+        "panelTitle.activeBorder": "#FF0830",
+        "panelTitle.activeForeground": "#FF0830",
+        "panelTitle.inactiveForeground": "#7A061A",
         "pickerGroup.foreground": "#25c5ff",
         "problemsErrorIcon.foreground": "#FF2014",
         "problemsInfoIcon.foreground": "#5888E5",
@@ -287,7 +287,7 @@
         "settings.numberInputForeground": "#78FF0A",
         "settings.textInputBackground": "#000000",
         "settings.textInputBorder": "#181f28",
-        "settings.textInputForeground": "#4CFF08",
+        "settings.textInputForeground": "#50FF10",
 
         "sideBar.background": "#090F15",
         "sideBar.border": "#3A000C",
@@ -298,14 +298,14 @@
         "sideBarSectionHeader.border": "#700000",
         "sideBarSectionHeader.foreground": "#9E0024",
 
-        "sideBarTitle.foreground": "#4CFF08",
+        "sideBarTitle.foreground": "#50FF10",
 
         "statusBar.background": "#3A0410",
         "statusBar.foreground": "#E8E8E8",
         "statusBar.border": "#6A6A6A",
 
         "statusBar.debuggingBackground": "#02060C",
-        "statusBar.debuggingForeground": "#4CFF08",
+        "statusBar.debuggingForeground": "#50FF10",
 
         "statusBar.noFolderBackground": "#502030",
         "statusBar.noFolderForeground": "#cccccc",
@@ -351,7 +351,7 @@
         // Breadcrumb-Bar
         "breadcrumb.activeSelectionForeground": "#00F4FF",
         "breadcrumb.background": "#3A0410",
-        "breadcrumb.focusForeground": "#FF0035",
+        "breadcrumb.focusForeground": "#CCCCCC",
         "breadcrumb.foreground": "#FFFFFF4F",
         "breadcrumbPicker.background": "#0c1420",
         "contrastActiveBorder": "#ffffff00",
@@ -363,14 +363,13 @@
         "editorGroupHeader.tabsBorder": "#FF00204A",
 
         // |> Active (focused & unfocused)
-        "tab.activeBackground": "#FF002F0A",
+        "tab.activeBackground": "#FF00100A",
         "tab.unfocusedActiveBackground": "#02040600",
-        "tab.activeForeground": "#FF1840",
-
+        "tab.activeForeground": "#C7C7C7",
         "tab.unfocusedActiveForeground": "#FFFFFF20",
-        "tab.activeBorder": "#00000000",
+        "tab.activeBorder": "#FF083800",
         "tab.unfocusedActiveBorder": "#00000000",
-        "tab.activeBorderTop": "#FF002F",
+        "tab.activeBorderTop": "#FF0838",
         "tab.unfocusedActiveBorderTop": "#FF002000",
         "tab.activeModifiedBorder": "#18D0FF00",
         "tab.unfocusedActiveModifiedBorder": "#18D0FF00",
@@ -378,13 +377,13 @@
         // |> Inactive
         "tab.inactiveBackground": "#00000000",
         "tab.unfocusedInactiveBackground": "#04080E00",
-        "tab.inactiveForeground": "#70081A",
+        "tab.inactiveForeground": "#70061A",
         "tab.unfocusedInactiveForeground": "#FFFFFF",
         "tab.inactiveModifiedBorder": "#CCCCCC00",
         "tab.unfocusedInactiveModifiedBorder": "#CCCCCC00",
 
         // |> Hover (acttive & inactive, focused & unfocused)
-        "tab.hoverBackground": "#00000000",
+        "tab.hoverBackground": "#FF00100A",
         "tab.unfocusedHoverBackground": "#0C1C2A00",
         "tab.hoverForeground": "#FF002F",
         "tab.unfocusedHoverForeground": "#00F8FF00",
@@ -392,8 +391,8 @@
         "tab.unfocusedHoverBorder": "#FF002500",
 
         // |> Borders
-        "tab.border": "#3A000C",
-        "tab.lastPinnedBorder": "#3A000C",
+        "tab.border": "#3E0210",
+        "tab.lastPinnedBorder": "#3E0210",
 
         //  ==> TERMINAL
         "terminal.ansiBlack": "#000000",
