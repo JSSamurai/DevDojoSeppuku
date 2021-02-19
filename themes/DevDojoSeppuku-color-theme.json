@@ -9,8 +9,8 @@
         "activityBar.border": "#3A000C",
 
         // ActivityBar: Active
-        "activityBar.activeBackground": "#FFFFFF10",
-        "activityBar.activeBorder": "#FFFFFF",
+        "activityBar.activeBackground": "#FF023412",
+        "activityBar.activeBorder": "#FF0234",
         "activityBar.activeFocusBorder": "#ffffff",
         "activityBar.dropBorder": "#40FF0F",
 
@@ -363,7 +363,7 @@
         "editorGroupHeader.tabsBorder": "#FF00204A",
 
         // |> Active (focused & unfocused)
-        "tab.activeBackground": "#FF002F12",
+        "tab.activeBackground": "#FF002F0A",
         "tab.unfocusedActiveBackground": "#02040600",
         "tab.activeForeground": "#FF1840",
 
