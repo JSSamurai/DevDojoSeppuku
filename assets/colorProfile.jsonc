@@ -19,8 +19,9 @@
     "ThemesPallete": {
         "Chorcoal": "#040810",
         "Crimson": "#FF0040",
-        "Sky": "#18D2FF",
-        "Malachite": "#00FF64"
+        "Sky": "#18D0FF",
+        "Azure": "#2090FF",
+        "Malachite": "#00FF68"
     },
 
     "Editor-Scheme": {
@@ -57,28 +58,24 @@
         "Cyans/Blues": {
             "Cyan": "#00F8FF",
             "SkyBlue": "#18D0FF",
-            "Azure": "#1888FF"
+            "Azure": "#2090FF"
         },
 
         "Gree3s": {
-            "Malachite": {
-                "Original-Chartreuse": "#D0FF00",
-                "New-Chartreuse": "#90FF00",
-                "NeonGreen (HiC)": "#4FFF28",
-                "NeonGreen (std)": "#30FF12",
-
-                "Malachite(HiC)": "#0FFF72",
-                "Malachite(STD)": "#0DDD64",
-                "Malachite(LoC)": "#0BBB56"
-            },
-            "GrannSmith": "#38BF28",
-            "BlueGrass": "#20A040"
+            "Malachite": "#0FFF5A",
+            "NeonGreen": "#2FFF0F",
+            "DarkPastelGreen": "#2BBB4A"
         },
 
         "Misc": {
             "DarkYellow": "#FFCC18",
             "DarkYellow(opaqe)": ["#FFCC1818", "#FFCC1888"]
         }
+    },
+
+    "OpaqueColors(SelectionHighliting)": {
+        "Opaqe_Crimson": "#3E0A16AA",
+        "Opaqe_Gunmetal": "#03243880"
     },
 
     "SatusColors": {

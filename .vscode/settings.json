@@ -42,7 +42,7 @@
     "editor.minimap.enabled": true,
     "editor.minimap.showSlider": "always",
     "editor.showFoldingControls": "always",
-    "editor.renderLineHighlight": "gutter",
+    "editor.renderLineHighlight": "all",
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "wordWrapColumn",
     "scm.providerCountBadge": "visible",
