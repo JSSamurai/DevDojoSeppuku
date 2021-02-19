@@ -99,7 +99,7 @@
         "editorLightBulbAutoFix.foreground": "#e8ff54",
 
         // Line~Numberz
-        "editorLineNumber.activeForeground": "#50FF10",
+        "editorLineNumber.activeForeground": "#4DFF0D",
         "editorLineNumber.foreground": "#2f2f2f",
 
         // Linkz
@@ -163,7 +163,7 @@
         "icon.foreground": "#FF042F",
         "input.background": "#020202",
         "input.border": "#36000C",
-        "input.foreground": "#50FF10",
+        "input.foreground": "#4DFF0D",
         "input.placeholderForeground": "#ffffff4a",
         "inputOption.activeBackground": "#000000",
         "inputOption.activeBorder": "#000000",
@@ -192,7 +192,7 @@
 
         // List: Hover
         "list.hoverBackground": "#3E0A16E0",
-        "list.hoverForeground": "#50FF10",
+        "list.hoverForeground": "#4DFF0D",
         "list.dropBackground": "#00ffc454",
 
         // List: Status Colors
@@ -248,12 +248,12 @@
         "notificationsWarningIcon.foreground": "#FFCC18",
         "panel.background": "#04080E",
         "panel.border": "#940024",
-        "panel.dropBorder": "#50FF10",
+        "panel.dropBorder": "#4DFF0D",
         "panelInput.border": "#36000C",
         "panelSection.border": "#181e25",
         "panelSection.dropBackground": "#00FFC4",
         "panelSectionHeader.background": "#36000C",
-        "panelSectionHeader.border": "#50FF10",
+        "panelSectionHeader.border": "#4DFF0D",
         "panelSectionHeader.foreground": "#dfdfdf",
         "panelTitle.activeBorder": "#FF0830",
         "panelTitle.activeForeground": "#FF0830",
@@ -287,7 +287,7 @@
         "settings.numberInputForeground": "#78FF0A",
         "settings.textInputBackground": "#000000",
         "settings.textInputBorder": "#181f28",
-        "settings.textInputForeground": "#50FF10",
+        "settings.textInputForeground": "#4DFF0D",
 
         "sideBar.background": "#090F15",
         "sideBar.border": "#3A000C",
@@ -298,14 +298,14 @@
         "sideBarSectionHeader.border": "#700000",
         "sideBarSectionHeader.foreground": "#9E0024",
 
-        "sideBarTitle.foreground": "#50FF10",
+        "sideBarTitle.foreground": "#4DFF0D",
 
         "statusBar.background": "#3A0410",
         "statusBar.foreground": "#E8E8E8",
         "statusBar.border": "#6A6A6A",
 
         "statusBar.debuggingBackground": "#02060C",
-        "statusBar.debuggingForeground": "#50FF10",
+        "statusBar.debuggingForeground": "#4DFF0D",
 
         "statusBar.noFolderBackground": "#502030",
         "statusBar.noFolderForeground": "#cccccc",
