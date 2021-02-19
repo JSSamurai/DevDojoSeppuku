@@ -15,13 +15,19 @@
  *    can be created rather quickling using the DojoJS Layout."
  * ----------------------------------------------------------------------------- */
 
+// * Note:
+// # HC = High Contrast
+// # LC = Low Contrast
+// # STD = Standard Color
+
 {
     "ThemesPallete": {
+        // "A simple pallete from which all the other colors were derived."
         "Chorcoal": "#040810",
-        "Crimson": "#FF0040",
+        "Crimson": "#FF0234",
         "Sky": "#18D0FF",
         "Azure": "#2090FF",
-        "Malachite": "#00FF68"
+        "Neon-Green": "#42FF18"
     },
 
     "Editor-Scheme": {
@@ -31,40 +37,28 @@
                 "Charcoal02": "#090F15",
                 "Charcoal03": "#060C14"
             },
-            "TrueBlack": {
-                "TrueBlack01": "010105",
-                "TrueBlack02": "020308",
-                "TrueBlack03": "050509"
-            },
+
             "PureBlack": "#000000"
         },
 
-        "Reds": {
-            "CRIMSON": {
-                "Crimson(HiC)": "#FF0234",
-                "Crimson(STD)": "#D40630",
-                "Crimson(LoC)": "#8A0420",
-                "RoseWood": "#4C0212"
-            },
-            "TrueRed": {
-                "Red(HiC)": "#FF2014",
-                "Red(Hic/Opaqe)": "#FF201420",
-                "DarkRed": "#A8140D"
-            },
-            "FrenchBurgandy": "#450310",
-            "Erroneous": "#F05A52"
+        "CRIMSON": {
+            "HC_Crimson (Foreground)": "#FF0234",
+            "HC_Crimson (Border)": "#FF0824",
+            "STD_Crimson": "#D40630",
+            "LC_Crimson": "#8A0420",
+            "RoseWood": "#4C0212"
         },
 
-        "Cyans/Blues": {
+        "Blue/Cyan": {
             "Cyan": "#00F8FF",
             "SkyBlue": "#18D0FF",
-            "Azure": "#2090FF"
+            "Azure": "#2090FF",
+            "Gunmetal": "#032438"
         },
 
-        "Gree3s": {
-            "Malachite": "#0FFF5A",
-            "NeonGreen": "#2FFF0F",
-            "DarkPastelGreen": "#2BBB4A"
+        "Greens": {
+            "NeonGreen": "#4CFF08",
+            "NewAge-Chartreuse": "#78FF0A"
         },
 
         "Misc": {
@@ -74,8 +68,9 @@
     },
 
     "OpaqueColors(SelectionHighliting)": {
-        "Opaqe_Crimson": "#3E0A16AA",
-        "Opaqe_Gunmetal": "#03243880"
+        // Level of opacity will vary depending on use case...
+        "Opaqe_Crimson": "#3E0A16C5",
+        "Opaqe_Gunmetal": "#032438C5"
     },
 
     "SatusColors": {
