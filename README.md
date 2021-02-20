@@ -6,8 +6,13 @@
 >
 > <br>
 >
-> JSDojo is a theme for VSCode that will work for most all languages, but it does have semantic-token support for JavaScript & I plan on adding semantic support for C++ in the future. I have worked many hours producing this theme and am still far from finished, however I will have to complete the rest through occassional updates. This theme is deeply developed. I've thouroughly explored all the JSON properties, and TM-Tokens that are available to be configured in relation to 'VSCode Themes'. Even the most mundane parts of this theme have been reconfigured as to offer a graphical experiance unique to this theme. YO code generater is a great tool, however, it makes generating themes easy, and the marketplace is flooded with underdeveloped "Yo-Generated" themes that are garbage for a professional development environment. This theme is not an underdeveloped theme, if anything; this theme is curruntly slightlty over-developed. I need to go through and elimate the differnt colors that are all nearly the same into single colors, thus creating an easily concievable color pallete for JSDojo. 2021=FEBUARY-16 @ 12:45am PST is when this theme will be published (give or take a minute or two). Currently at this time this theme is in what I would consider a beta version. I release updates regularly for this theme weekly for the next few months untill I am satisified with the theme all together. If you try this theme out, please give me feed back, I promise you I will hear out your ideas, requests, thoughts, critisisms, feedback &/or whatever else you have to sat.
+> ## JSDojo is a Loaded-Theme!!!
 >
+> JSDojo theme is a fully styled theme. Ive styled the panels, activitybar, sidebar, sidebar headers, icons, find-tool, suggestion widget, hover widget, text inputs, settings menu, status bar, minimap, SCM (Source Controll Extention), Custom Titlebar, scrollbar sliders, rightclick/titlebar menus, breadcrumbs, tabs crumb, editor fg/bg, log files, text files, json files, Styled TextMate tokens in a way to add support for most languages. Semantic tokens for the JavaScript language, and much much much more...
+>
+> ## Yet to Come!
+>
+> In the next update that I will release in a few weeks JSDojo will recieve further support for specific frontend languages. CSS is already supported, but I have specificly delved deep into to. I will add further styling for stylesheets and markup, as well as markdown. And hopfully in another month or two, JSDojo: Suppuku will have a second version of its self JSDojo: Awakening, which will have the same layout but be blue and green.
 > <br>
 >
 > ---
@@ -21,7 +26,7 @@
 ---
 
 ## <span style="color: crimson">Settings to use with DojoJS</span>
- 
+
 The following setting changes are not required, they are just a suggestion on my behalf. When creating a theme for vscode certain features/items can be styled that are not activated by default, furthermore; when a theme is developed it is developed in the environment that the developer has set up. With that said, some settings will be advantageous to certain themes, and may not work/look so well with other themes. Bellow are certain VSCode settings that I feel will help you get the most out of DojoJS.
 
 ```
