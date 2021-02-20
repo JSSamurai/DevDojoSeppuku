@@ -34,7 +34,8 @@
       "TrueBlack": "#000000",
       "ColorBalack(STD)": "#010204",
       "ColorBlack(HC)": "#04080E",
-      "Charcoal(LC)": "#080D15"
+      "Charcoal(LC)": "#080D15",
+      "Charcoal(STD)": "#12151A"
     },
 
     "CrimsonGroup": {
@@ -45,7 +46,7 @@
       "Blood(STD)": "#820123",
       "Blood(LC)": "#64001A",
       "Rosewood(STD)": "#500012",
-      "RoseWood(LC)": "#3A000C"
+      "RoseWood(LC)": "#3C000F"
     },
 
     "BlueGroup": {
