@@ -58,11 +58,6 @@
     "ChartreuseGroup": {
       "NeonGreen": "#3AFF0A",
       "NewAge-Chartreuse": "#72FF08"
-    },
-
-    "Misc": {
-      "DarkYellow": "#FFCC18",
-      "DarkYellow(opaqe)": ["#FFCC1818", "#FFCC1888"]
     }
   },
 
@@ -88,14 +83,15 @@
     },
 
     "Warning": {
-      "Foreground": "#FFCC18",
-      "Background/Border": ["#FFCC1818", "#FFCC1888"]
+      "Foreground": "#FFC40F",
+      "Background/Border": ["#FFC40F18", "#FFC40F88"]
     },
 
     "Info": {
-      "Foreground": "#5888E5",
-      "Background/Border": ["#5888E540", "#5888E5BB"]
+      "Foreground": "#A050FF",
+      "Background/Border": ["#A050FF40", "#A050FFBB"]
     },
+
     "Debugging": {
       "Foreground": "",
       "Background/Border": ["#20A840", "#20A840"]
