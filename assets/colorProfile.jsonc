@@ -21,96 +21,97 @@
 // # STD = Standard Color
 
 {
-    "ThemesPallete": {
-        // "A simple pallete from which all the other colors were derived."
-        "Black-Chorcoal": "#04080E",
-        "Crimson": "#FF0234",
-        "Azure": "#00A0FF",
-        "NewAge-Chartreuse": "#72FF08"
+  "ThemesPallete": {
+    // "A simple pallete from which all the other colors were derived."
+    "Black-Chorcoal": "#04080E",
+    "Crimson": "#FF0234",
+    "Azure": "#00A0FF",
+    "NewAge-Chartreuse": "#72FF08"
+  },
+
+  "Editor-Scheme": {
+    "NuetralsGroup": {
+      "TrueBlack": "#000000",
+      "ColorBalack(STD)": "#010204",
+      "ColorBlack(HC)": "#04080E",
+      "Charcoal(LC)": "#080D15"
     },
 
-    "Editor-Scheme": {
-        "Blacks": {
-            "TrueBlack": "#000000",
-            "ColorBalack(STD)": "#010204",
-            "ColorBlack(HC)": "#04080E",
-            "Charcoal(LC)": "#090F15"
-        },
-
-        // * Note: Color groups are grouped acording to the colors (R-G-B) values set in their hex codes.  "Color#1/Color#2" Color#1 is the (R-G-B) value that is the greatest for that group, and Color#2 is the color that has the second greatest value. If a color doeesn't meet the requirements of the title it is in the incorrect group.
-
-        "Red/Blue": {
-            "HC_Crimson (Foreground)": "#FF0234",
-            "HC_Crimson (Border)": "#FF0A2C",
-            "STD_Crimson": "#E0022D",
-            "LC_Crimson": "#9F0028",
-            "RoseWood": "#500012"
-        },
-
-        "Blue/Green": {
-            "BlueTinge": "#02081C",
-            "Gunmetal(HC)": "#032438",
-            "GunMetal(STD)": "#001A28",
-            "Azure": "#00A0FF"
-        },
-
-        "Greens/Red": {
-            "NeonGreen": "#3AFF0A",
-            "NewAge-Chartreuse": "#72FF08"
-        },
-
-        "Misc": {
-            "DarkYellow": "#FFCC18",
-            "DarkYellow(opaqe)": ["#FFCC1818", "#FFCC1888"]
-        }
+    "CrimsonGroup": {
+      "SpanishRed(1)": "#FF0234",
+      "SpanishRed(2)": "#FF0A2C",
+      "Crimson(STD)": "#E0022D",
+      "Crimson(LC)": "#9F0028",
+      "Blood(STD)": "#820123",
+      "Blood(LC)": "#64001A",
+      "Rosewood(STD)": "#500012",
+      "RoseWood(LC)": "#3A000C"
     },
 
-    "OpaqueColors(SelectionHighliting)": {
-        // Level of opacity will vary depending on use case...
-        "Opaqe_Crimson": "#3E0A16C5",
-        "Opaqe_Gunmetal": "#032438C5"
+    "BlueGroup": {
+      "BlueTinge": "#02081C",
+      "Gunmetal(HC)": "#032438",
+      "GunMetal(STD)": "#001A28",
+      "Azure": "#00A0FF"
     },
 
-    "SatusColors": {
-        // Error covers the following: 'Error', 'Conflict', 'Invalid', 'Promblem'
-        "Errors": {
-            "Erroneous": [
-                {
-                    "Deleted": "#A8140D",
-                    "Invalid": "#F05A52",
-                    "Error/Conflict": {
-                        "Background/Border": "#FF201420",
-                        "Foreground": "#FF2014"
-                    }
-                }
-            ]
-        },
-
-        "Warning": {
-            "Foreground": "#FFCC18",
-            "Background/Border": ["#FFCC1818", "#FFCC1888"]
-        },
-
-        "Info": {
-            "Foreground": "#5888E5",
-            "Background/Border": ["#5888E540", "#5888E5BB"]
-        },
-        "Debugging": {
-            "Foreground": "",
-            "Background/Border": ["#20A840", "#20A840"]
-        }
+    "ChartreuseGroup": {
+      "NeonGreen": "#3AFF0A",
+      "NewAge-Chartreuse": "#72FF08"
     },
 
-    "VersionControlColors": {
-        "modified": "#24D0FF",
-        "deleted": "#A8140D",
-        "ignored": "#296996",
-        "untracked": "#D89A5C",
-        "conflict": "#FF2014",
-        "Staged": {
-            "added": "",
-            "modified": "",
-            "deleted": ""
-        }
+    "Misc": {
+      "DarkYellow": "#FFCC18",
+      "DarkYellow(opaqe)": ["#FFCC1818", "#FFCC1888"]
     }
+  },
+
+  "OpaqueColors(SelectionHighliting)": {
+    // Level of opacity will vary depending on use case...
+    "Opaqe_Crimson": "#3E0A16C5",
+    "Opaqe_Gunmetal": "#032438C5"
+  },
+
+  "SatusColors": {
+    // Error covers the following: 'Error', 'Conflict', 'Invalid', 'Promblem'
+    "Errors": {
+      "Erroneous": [
+        {
+          "Deleted": "#A8140D",
+          "Invalid": "#F05A52",
+          "Error/Conflict": {
+            "Background/Border": "#FF201420",
+            "Foreground": "#FF2000"
+          }
+        }
+      ]
+    },
+
+    "Warning": {
+      "Foreground": "#FFCC18",
+      "Background/Border": ["#FFCC1818", "#FFCC1888"]
+    },
+
+    "Info": {
+      "Foreground": "#5888E5",
+      "Background/Border": ["#5888E540", "#5888E5BB"]
+    },
+    "Debugging": {
+      "Foreground": "",
+      "Background/Border": ["#20A840", "#20A840"]
+    }
+  },
+
+  "VersionControlColors": {
+    "modified": "#20A8FF",
+    "deleted": "#A50215",
+    "ignored": "#296996",
+    "untracked": "#AA50EE",
+    "conflict": "#FF2000",
+    "Staged": {
+      "added": "#1BBB5B",
+      "modified": "#1BBB5B",
+      "deleted": ""
+    }
+  }
 }
