@@ -60,9 +60,9 @@
 
     // Cursor
     "editorCursor.foreground": "#3AFF0A",
-    "editorCursor.background": "#FF023A",
-    "terminalCursor.background": "#646FFF",
-    "terminalCursor.foreground": "#FFFFFF",
+    "editorCursor.background": "#000000",
+    "terminalCursor.background": "#FFFFFF",
+    "terminalCursor.foreground": "#FF023A",
 
     // Editor Errors
     "editorError.background": "#FF201420",
@@ -197,17 +197,17 @@
     // List: Status Colors
     "list.errorForeground": "#FF2000",
     "list.warningForeground": "#FFCC18",
-    "list.invalidItemForeground": "#F05A52",
-    "list.deemphasizedForeground": "#ff0000",
+    "list.invalidItemForeground": "#CC0000",
+    "list.deemphasizedForeground": "#606C74",
 
     // List: Dot-Filter
-    "list.filterMatchBackground": "#ff0000",
+    "list.filterMatchBackground": "#FF0234",
     "list.filterMatchBorder": "#ff0000",
 
     // ListFilter Widget
-    "listFilterWidget.background": "#00060b",
-    "listFilterWidget.noMatchesOutline": "#F05A52",
-    "listFilterWidget.outline": "#ffffff77",
+    "listFilterWidget.background": "#001020",
+    "listFilterWidget.noMatchesOutline": "#FF2000",
+    "listFilterWidget.outline": "#72FF08",
 
     // Menu-From
     "menu.background": "#000000ec",
