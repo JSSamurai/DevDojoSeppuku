@@ -4,8 +4,8 @@
     "editor.fontFamily": "'Iosevka Curly'",
     "terminal.integrated.fontFamily": "Iosevka Curly",
 
-    "editor.fontSize": 15,
-    "window.zoomLevel": 0.125,
+    "editor.fontSize": 15.5,
+    "window.zoomLevel": 0,
     "editor.padding.top": 64,
     "editor.padding.bottom": 128,
     "editor.lineHeight": 24,

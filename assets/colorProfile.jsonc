@@ -34,15 +34,14 @@
             "TrueBlack": "#000000",
             "ColorBalack(STD)": "#010204",
             "ColorBlack(HC)": "#04080E",
-            "Charcoal(LC)": "#060C14",
-            "Charcoal(STD)": "#090F15"
+            "Charcoal(LC)": "#090F15"
         },
 
         // * Note: Color groups are grouped acording to the colors (R-G-B) values set in their hex codes.  "Color#1/Color#2" Color#1 is the (R-G-B) value that is the greatest for that group, and Color#2 is the color that has the second greatest value. If a color doeesn't meet the requirements of the title it is in the incorrect group.
 
         "Red/Blue": {
             "HC_Crimson (Foreground)": "#FF0234",
-            "HC_Crimson (Border)": "#FF022A",
+            "HC_Crimson (Border)": "#FF0A2C",
             "STD_Crimson": "#E0022D",
             "LC_Crimson": "#9F0028",
             "RoseWood": "#500012"
