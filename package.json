@@ -1,0 +1,21 @@
+{
+  "name": "devdojoseppuku",
+  "displayName": "devdojoseppuku",
+  "description": "VSCode Dark Theme, Red & Black.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Developers Dojo: Seppuku",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DevDojoSeppuku-color-theme.json"
+      }
+    ]
+  }
+}
