@@ -26,7 +26,7 @@
         "Black-Chorcoal": "#04080E",
         "Crimson": "#FF0234",
         "Azure": "#00A0FF",
-        "NewAge-Chartreuse": "#72F00F",
+        "NewAge-Chartreuse": "#70FF1C",
         "Malachite": "#00FF88"
     },
 
@@ -48,14 +48,15 @@
     "EditorScheme": {
         "NuetralsGroup": {
             "TrueBlack": "#000000",
-            "ColorBalack(STD)": "#010204",
-            "ColorBlack(HC)": "#04080E",
+            "Black(1)": "#010204",
+            "Black(2)": "#02050A",
+            "Black(3)": "#04080E",
             "Charcoal(LC)": "#080D15",
             "Charcoal(STD)": "#12151A"
         },
 
         "Red": {
-            "SpanishRed": "#FF0432",
+            "SpanishRed": "#FF0234",
             "Crimson(STD)": "#E0022D",
             "Crimson(LC)": "#A00020",
             "BloodRed": "#600014",
@@ -70,16 +71,17 @@
         },
 
         "Green": {
-            "NeonGreen": "#3AFF0A",
-            "NewAge-Chartreuse": "#72F00F",
+            "NeonGreen": "#3FFF0F",
+            "NewAge-Chartreuse": "#70FF1C",
             "Malachite": "#00FF7A"
         }
     },
 
     "OpaqueColors(SelectionHighliting)": {
         // Level of opacity will vary depending on use case...
-        "Opaqe_Crimson": "#3E0A16C5",
-        "Opaqe_Gunmetal": "#032438C5",
+        "Opaque_Black": "#000000E8",
+        "Opaque_Crimson": "#3E0A16C5",
+        "Opaque_Gunmetal": "#032438C5",
         "Opaque_Malachie": "#00FF7A7A"
     },
 

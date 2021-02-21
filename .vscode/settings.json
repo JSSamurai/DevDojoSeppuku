@@ -341,6 +341,5 @@
     "scm.diffDecorationsGutterWidth": 4,
     "html.format.wrapAttributes": "preserve-aligned",
     "editor.wrappingStrategy": "advanced",
-    "editor.accessibilitySupport": "off",
-    "workbench.editor.wrapTabs": true
+    "editor.accessibilitySupport": "off"
 }
