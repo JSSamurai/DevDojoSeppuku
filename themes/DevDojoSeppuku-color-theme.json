@@ -170,14 +170,14 @@
 
   <<------------------|| SourceCtrl(SCM) & VerCtrl(Git) ||------------------>>  */
         "scm.providerBorder": "#454545",
-        "gitDecoration.modifiedResourceForeground": "#18DD88",
+        "gitDecoration.modifiedResourceForeground": "#1CCC80",
         "gitDecoration.deletedResourceForeground": "#FF1404",
         "gitDecoration.untrackedResourceForeground": "#FF188E",
         "gitDecoration.ignoredResourceForeground": "#CAC4AA80",
 
-        "gitDecoration.addedResourceForeground": "#20FF00",
+        "gitDecoration.addedResourceForeground": "#0AE0FF",
         "gitDecoration.stageDeletedResourceForeground": "#FF1404",
-        "gitDecoration.stageModifiedResourceForeground": "#70FF20",
+        "gitDecoration.stageModifiedResourceForeground": "#00FF2A",
 
         "gitDecoration.conflictingResourceForeground": "#FFC510",
         "gitDecoration.submoduleResourceForeground": "#c444c4",
