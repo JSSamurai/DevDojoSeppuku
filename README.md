@@ -1,6 +1,6 @@
 <hr style="border: 0px solid #000000; background: #004050; height: 2px; margin: 30px 0 20px 0">
 
-## <span style="color: #FF0430; font-size: 32px; font-weight: bold; margin-left: 13.25%; padding: 10px 20px; background: #001C3C; border: 4px outset #000">Developer's Dojo: Seppuku</span>
+## <span style="color: #FF0430; font-size: 32px; font-weight: bold; margin-left: 125px; padding: 10px 20px; background: #001C3C; border: 4px outset #000">Developer's Dojo: Seppuku</span>
 
 <hr style="border: 0px solid #000000; background: #004050; height: 2px; margin-top: 20px">
 
@@ -28,46 +28,109 @@ When I started creating this theme, I had been out of school due to the pandemic
 
 ---
 
-<br>
+<br><br><br><br>
 
-## <span style="color: #089888; text-decoration: underline;">Delving Into What Seppuku Offers </span>
+## _<span style="color: #08A5A0; font-size: 30px">Delving Into What Seppuku Offers </span>_
 
--   As of January 2021 VSCode released some extra graphical Git features that take advantage of Git Decorations. The new features don't only look cool, but they are extreamly resourcful when it comes to keeping track of one's own work. Metaphoricly speaking, they give Git a voice, by allowing Git to tell the user which files have had modification, which files have been added, and which files have been deleted or deleted from, furhermore; they tell users which files currently have modifications staged, pending the next commit. These Git Color-Decorations are not new to VSCode, you have probably seen them in action. For quite some time now, git decorations have been highlighting the foreground of file names in the sidebar, however, users can now opt to have them decorate the foregrounds of tabs as well, including adding colored badge decorations to further enhance visability, as well as coolness. I listed my perfered SCM, & Git configuration for the ('.vscode/settings.json') file bellow (in JSON format). If you currently use git, ecspecially if you are using Git in combonation with a repo like Github, then I highly suggest you checkout the features, that I blabed on about, above.
+> ---
+>
+> -   As of January 2021 VSCode released some extra graphical Git features that take advantage of Git Decorations. The new features don't only look cool, but they are extreamly resourcful when it comes to keeping track of one's own work. Metaphoricly speaking, they give Git a voice, by allowing Git to tell the user which files have had modification, which files have been added, and which files have been deleted or deleted from, furhermore; they tell users which files currently have modifications staged, pending the next commit. These Git Color-Decorations are not new to VSCode, you have probably seen them in action. For quite some time now, git decorations have been highlighting the foreground of file names in the sidebar, however, users can now opt to have them decorate the foregrounds of tabs as well, including adding colored badge decorations to further enhance visability, as well as coolness. I listed my perfered SCM, & Git configuration for the ('.vscode/settings.json') file bellow (in JSON format). If you currently use git, ecspecially if you are using Git in combonation with a repo like Github, then I highly suggest you checkout the features, that I blabed on about, above.
+>
+> -   I added <b style="color: #64CC20">Seppukus Color Profile</b> to the bottom of the page. The color profile is extreamly useful, as it gives Seppuku users a referance for the colors that are used to comunicate status (errors, warnings, ect...), and the colors that are used to communicate Version/Source Control (Modified, Added, Staged ect...). A color-profile gives users a refrance for the the colors that the theme ass referance colors that VSCode tools and extention use to communicate information with. to better understand the environment that they are working in, IMO, a themes color-profile is an essential tool for any editor that is as contemporary as VSCode. On the flip side, VSCode has truley become the editor beyond all other editors, and modern tools, beg for modern support. Where a programming tool begs, is where a niche can be filled, by those searching to build niche software.
+>
+> <br>
+>
+> ---
 
--   I added <b style="color: #64CC20">Seppukus Color Profile</b> to the bottom of the page. The color profile is extreamly useful, as it gives Seppuku users a referance for the colors that are used to comunicate status (errors, warnings, ect...), and the colors that are used to communicate Version/Source Control (Modified, Added, Staged ect...). A color-profile gives users a refrance for the the colors that the theme ass referance colors that VSCode tools and extention use to communicate information with. to better understand the environment that they are working in, IMO, a themes color-profile is an essential tool for any editor that is as contemporary as VSCode. On the flip side, VSCode has truley become the editor beyond all other editors, and modern tools, beg for modern support. Where a programming tool begs, is where a niche can be filled, by those searching to build niche software.
+<br><br><br><br><br><br><br>
 
----
-
-<br>
-
-<br>
-
-### _<span style="color: crimson;">Seppuku Color-Profile</span>_
+### _<span style="color: crimson;">Status Highlight Colors</span>_
 
 ---
 
 ```
-
-    "SatusColors": {
-        "EditorError": {
-            "Background": "#FF14002B",
+    "STATUS HIGHLIGHTING": {
+        "INVALID, ERROR": {
+            "Background": "#FF1400BC",
             "Foreground": "#FF2B00", // Italic & Bold
             "Border": "#FF1400"
         },
 
-        "EditorWarning": {
+        "WARNING": {
             "Background": "#FFCC0C28",
             "Foreground": "#FFCC0C", // Foreground doesn't always highlight.
             "Border": "#FFCC0C"
         },
 
-        "Info": {
+        "INFO": {
             "Background": "#9FFF3A28",
             "Border": "#9FFF3AAA",
             "Foreground": "#9FFF3A" // Foreground doesnt always highlight
+        },
+
+        "AUTOFIX": {
+            "Foreground": "#C8FF10",
+            "Icon('Lightbulb')": "#D4FF00"
         }
     },
 
 ```
 
+<br><br><br>
+
+### _<span style="color: crimson;">Git/SCM Highlight Colors</span>_
+
 ---
+
+```
+    "SOURCE-CONTROL, VERSION-CONTROL": {
+        "Modified": "#1CCC80",
+        "Added": "#0AE0FF", // Added only highlights when staged
+        "Deleted": "#D01D05",
+        "Untracked": "#FF188E",
+        "Ignored": "#CAC4AA80", // same color that sidebar uses but darker
+        "Conflict": "#FFD50A",
+        "Staged": {
+            "Modified": "#00FF34",
+            "Added": "#0AE0FF",
+            "Deleted": "#FF2F0F"
+        }
+    },
+```
+
+<br><br><br>
+
+### _<span style="color: crimson;">Workbench Highlighting</span>_
+
+---
+
+```
+    "HIGHLIGHT-COLORS-DEFINED": {
+        "IAmActive": ["#FF003C", "#E5E5E5"],
+        "IAmInactive": ["#909090", "#CAC4AA80"],
+        "AnActionCanBeTaken(MaybeYouCanClickMe!)": ["#00FF5A", "#00FF5A90"],
+        "IActivleyInformYouOfSomthing": "#1FFF2A",
+        "MyTextIsDynamic": "#4AFF14",
+        "IAmTheBackgroundOFATextBox": "#010102"
+    },
+
+```
+
+<br><br><br>
+
+### _<span style="color: crimson;">Selection Background Colors Defined:</span>_
+
+---
+
+```
+
+    "SELECTION-BACKGROUND-COLORS-DEFINED": {
+        "ClickNDrag_TextSelection": "#A00020BB",
+        "TextInputSelection": "#A00020BB",
+        "ActiveSelection": "#00A080AA",
+        "InactiveSelection": "#A000207A",
+        "Minimap": "#00FF1A"
+    },
+
+
+```
